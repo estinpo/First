@@ -1,0 +1,131 @@
+.home {
+  background-image: url("../img/trees-bg.png");
+  height: 100vh;
+}
+
+.home .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 65%;
+  height: 75vh;
+}
+
+.home .wrap .title {
+  color: white;
+  position: relative;bv  25y
+}
+
+.home .wrap .title::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 46%;
+  width: 70px;
+  height: 3px;
+  color: #00e1ff;
+}
+
+.home .wrap .text {
+  color: white;
+}
+
+.home .wrap .btn {
+  color: #00e1ff !important;
+  border: 1px solid #00e1ff;
+}
+
+.story .btn {
+  color: #00e1ff;
+  border: 2px solid #00e1ff;
+}
+
+body {
+  margin: 0;
+}
+
+body .watch {
+  background-image: url("../img/story-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .watch h2 {
+  color: #ffffff;
+}
+
+body .expertise {
+  height: 100vh;
+}
+
+body .expertise .container .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .expertise .container .wrapper .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+  text-align: center;
+}
+
+body .expertise .container .wrapper .wrap .box {
+  background: #00e1ff;
+  width: 50px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

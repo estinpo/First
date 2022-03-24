@@ -1,0 +1,39 @@
+.home{
+    background-image: url('../img/trees-bg.png');
+    height: 100vh;
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 65%;
+        height: 75vh;
+        .title{
+            color: white;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 100%;
+                left: 46%;
+                width: 70px;
+                height: 3px;
+                color: $blue;
+            }
+        }
+        
+        .text{
+            color: white;
+        }
+        .btn{
+            color: $blue !important;
+            border: 1px solid $blue;
+        }
+    }
+}
